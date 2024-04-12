@@ -1,4 +1,4 @@
-class nthPrime extends App{
+object nthPrime extends App{
 
   def isPrime(n: Int): Boolean = {
     if (n <= 1) false
@@ -15,5 +15,6 @@ class nthPrime extends App{
 
     findNextPrime(2, 0)
   }
+  println(nthPrime(6))
 
 }
